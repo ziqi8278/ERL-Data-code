@@ -1,0 +1,15 @@
+Software version：Stata/MP 17.0
+
+In "Main results code.do", all results can be replicated.
+
+*Note that in "Main results code.do", you may need an external command named sum2docx. This command can be download when entering "findit sum2docx, from("http://fmwww.bc.edu/RePEc/bocode/r") replace"
+
+data.dta is the comprehensive data merged by the all row data.
+
+mdata.dta is the comprehensive data after PSM match.
+
+fdata.dta is the comprehensive data after generating treat group and distance in DID model.
+
+updata.dta is the comprehensive data including carbon efficiency.
+
+cxsq.dta is the data about city-county mergers.
